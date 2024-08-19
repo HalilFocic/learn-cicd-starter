@@ -17,5 +17,5 @@ jobs:
         uses: actions/setup-go@v5
         with:
           go-version: 1.22
-      - name: Force Failure
-        run: (exit 1)
+      - name: Print go version 
+        run: go version 
